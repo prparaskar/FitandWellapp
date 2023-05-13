@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "977890822643",
+    "project_id": "fitandhitapp",
+    "storage_bucket": "fitandhitapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977890822643:android:9e6de78ea6ccd484c12a86",
+        "android_client_info": {
+          "package_name": "com.example.fitwell"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "977890822643-d0cja2om8v4vbltn02bik8lehd1r1ola.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA69pjHre0W003wHLa_Cj0UKLlU-XGfkcg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "977890822643-d0cja2om8v4vbltn02bik8lehd1r1ola.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

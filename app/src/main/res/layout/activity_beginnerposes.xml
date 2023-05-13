@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Beginnerposes">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#673AB7"
+        android:textAlignment="textEnd"
+        app:title="Fit and Well"
+        app:titleTextColor="#FFF"
+        android:gravity="end"/>
+    <ImageView
+        android:id="@+id/imageviewbeginerposes"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:elevation="@dimen/cardview_compat_inset_shadow"
+        />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:gravity="center">
+            
+            
+            
+            
+              <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:layout_margin="10dp"
+            android:layout_marginTop="15.0dp"
+            android:background="@drawable/cropinscroll2"
+            android:orientation="vertical">
+
+                  <LinearLayout
+                      android:layout_width="392dp"
+                      android:layout_height="111dp"
+                      android:layout_gravity="center"
+                      android:gravity="left">
+
+                      <TextView
+                          android:layout_width="match_parent"
+                          android:layout_height="fill_parent"
+                          android:fontFamily="serif-monospace"
+                          android:text="1.Tree Posture"
+                          android:textColor="@color/black"
+                          android:textSize="27dp"/>
+
+                          <ImageView
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"/>
+
+
+
+                  </LinearLayout>
+                   <Button
+                       android:id="@+id/showtreeposture"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Show"
+                       android:background="@drawable/bgposesbutton"
+                       android:textSize="15dp"/>
+
+              </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15.0dp"
+                android:background="@drawable/cropinscroll2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="392dp"
+                    android:layout_height="111dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="392dp"
+                        android:layout_height="fill_parent"
+                        android:fontFamily="serif-monospace"
+                        android:text="2.Child Pose (Sishuaasan)"
+                        android:textColor="@color/black"
+                        android:textSize="27dp" />
+
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/showchildpose"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Show"
+                    android:background="@drawable/bgposesbutton"
+                    android:textSize="15dp"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15.0dp"
+                android:background="@drawable/cropinscroll2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="392dp"
+                    android:layout_height="111dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="392dp"
+                        android:layout_height="fill_parent"
+                        android:fontFamily="serif-monospace"
+                        android:text="3.Downward facing pose"
+                        android:textColor="@color/black"
+                        android:textSize="27dp" />
+
+
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/showdownfacingpose"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Show"
+                    android:background="@drawable/bgposesbutton"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15.0dp"
+                android:background="@drawable/cropinscroll2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="392dp"
+                    android:layout_height="111dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="392dp"
+                        android:layout_height="fill_parent"
+                        android:fontFamily="serif-monospace"
+                        android:text="4.Cat stretch"
+                        android:textColor="@color/black"
+                        android:textSize="27dp" />
+
+
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/catstretch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Show"
+                    android:background="@drawable/bgposesbutton"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15.0dp"
+                android:background="@drawable/cropinscroll2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="392dp"
+                    android:layout_height="111dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="392dp"
+                        android:layout_height="fill_parent"
+                        android:fontFamily="serif-monospace"
+                        android:text="5.Butterfly pose"
+                        android:textColor="@color/black"
+                        android:textSize="27dp" />
+
+
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/butterflypose"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Show"
+                    android:background="@drawable/bgposesbutton"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15.0dp"
+                android:background="@drawable/cropinscroll2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="392dp"
+                    android:layout_height="111dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="392dp"
+                        android:layout_height="fill_parent"
+                        android:fontFamily="serif-monospace"
+                        android:text="6.Bhujangasan"
+                        android:textColor="@color/black"
+                        android:textSize="27dp" />
+
+
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/bhujangasan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Show"
+                    android:background="@drawable/bgposesbutton"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15.0dp"
+                android:background="@drawable/cropinscroll2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="392dp"
+                    android:layout_height="111dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="392dp"
+                        android:layout_height="fill_parent"
+                        android:fontFamily="serif-monospace"
+                        android:text="7. Head to knee touch"
+                        android:textColor="@color/black"
+                        android:textSize="27dp" />
+
+
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/headtoknee"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Show"
+                    android:background="@drawable/bgposesbutton"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15.0dp"
+                android:background="@drawable/cropinscroll2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="392dp"
+                    android:layout_height="111dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="392dp"
+                        android:layout_height="fill_parent"
+                        android:fontFamily="serif-monospace"
+                        android:text="8. Push the wall"
+                        android:textColor="@color/black"
+                        android:textSize="27dp" />
+
+
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/pushthewallpose"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Show"
+                    android:background="@drawable/bgposesbutton"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15.0dp"
+                android:background="@drawable/cropinscroll2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="392dp"
+                    android:layout_height="111dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="392dp"
+                        android:layout_height="fill_parent"
+                        android:fontFamily="serif-monospace"
+                        android:text="9. Sukhassan"
+                        android:textColor="@color/black"
+                        android:textSize="27dp" />
+
+
+
+                </LinearLayout>
+                <Button
+                    android:id="@+id/sukhassanpose"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Show"
+                    android:background="@drawable/bgposesbutton"
+                    android:textSize="15dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15.0dp"
+                android:background="@drawable/cropinscroll2"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="111dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="265dp"
+                        android:layout_height="fill_parent"
+                        android:fontFamily="serif-monospace"
+                        android:text="More Poses coming soon"
+                        android:textColor="@color/black"
+                        android:textSize="30dp" />
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15.0dp"
+                android:background="@drawable/bgsuryanamskarbeginnerposes"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="111dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="286dp"
+                        android:layout_height="fill_parent"
+                        android:fontFamily="serif-monospace"
+                        android:text="Suryanamaskar"
+                        android:textColor="@color/black"
+                        android:textSize="30dp" />
+
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+            
+            
+            
+            
+            
+            
+        </LinearLayout>
+        
+        
+    </ScrollView>
+</LinearLayout>

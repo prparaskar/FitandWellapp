@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Courselisting">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#49B5E6"
+        android:textAlignment="textEnd"
+        app:title="Fit and Well"
+        app:titleTextColor="#FFF"
+        android:gravity="end"/>
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        android:layout_gravity="center">
+
+          <LinearLayout
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:orientation="vertical"
+              android:gravity="center">
+
+              <LinearLayout
+                  android:id="@+id/course1"
+                  android:layout_height="wrap_content"
+                  android:layout_width="fill_parent"
+                  android:layout_margin="10dp"
+                  android:layout_marginTop="15.0dp"
+                  android:background="@drawable/firstimgonposes"
+                  android:orientation="vertical">
+                  <LinearLayout
+                      android:layout_width="fill_parent"
+                      android:layout_height="150dp"
+                      android:layout_gravity="center"
+                      android:gravity="center"
+                      >
+
+                      <TextView
+                          android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                          android:text="Beginners plan for 15 days"
+                          android:textSize="30dp"
+                          android:fontFamily="serif-monospace"
+                          android:textColor="@color/white"/>
+
+                  </LinearLayout>
+
+                  <TextView
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:text="Its a free session . "
+                      android:textSize="25dp"
+                      android:fontFamily="serif-monospace"
+                      android:textColor="@color/white"/>
+                  <Button
+                      android:id="@+id/registercourse1"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:background="@drawable/buttonbackground"
+                      android:text="Register"
+                      android:textAllCaps="true"
+                      android:textColor="@color/white"/>
+
+
+              </LinearLayout>
+
+              <LinearLayout
+                  android:id="@+id/course2"
+                  android:layout_height="wrap_content"
+                  android:layout_width="fill_parent"
+                  android:layout_margin="10dp"
+                  android:layout_marginTop="15.0dp"
+                  android:background="@drawable/firstimgonposes"
+                  android:orientation="vertical">
+                  <LinearLayout
+                      android:layout_width="fill_parent"
+                      android:layout_height="150dp"
+                      android:layout_gravity="center"
+                      android:gravity="center"
+                      >
+
+                      <TextView
+                          android:layout_width="fill_parent"
+                          android:layout_height="fill_parent"
+                          android:text="Advance level Yoga for 3 Months "
+                          android:textSize="30dp"
+                          android:fontFamily="serif-monospace"
+                          android:textColor="@color/white"/>
+
+                  </LinearLayout>
+
+                  <TextView
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent"
+                      android:text="Course is beneficial"
+                      android:textSize="25dp"
+                      android:fontFamily="serif-monospace"
+                      android:textColor="@color/white"/>
+                  <Button
+                      android:id="@+id/registercourse2"
+                      android:layout_width="fill_parent"
+                      android:layout_height="wrap_content"
+                      android:background="@drawable/buttonbackground"
+                      android:text="Register"
+                      android:textAllCaps="true"
+                      android:textColor="@color/white"/>
+
+
+              </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+          </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+    </ScrollView>
+
+
+</LinearLayout>

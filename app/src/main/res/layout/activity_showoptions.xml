@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".Showoptions">
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#37CFE3"
+        android:textAlignment="textEnd"
+        app:title="Fit and Well"
+        app:titleTextColor="#FFF"
+        android:gravity="end"
+        />
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="none"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <LinearLayout
+                android:id="@+id/layoutopt1"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15.0dp"
+                android:background="@drawable/cropinscroll"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Beginner yoga poses"
+                        android:textSize="40dp"
+                        android:fontFamily="serif-monospace"
+                        android:textColor="@color/white"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Getting started with yoga"
+                    android:textSize="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:textColor="@color/white"/>
+                <Button
+                    android:id="@+id/beginerposesbutton"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonbackground"
+                    android:text="Get Started"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/layoutopt2"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15.0dp"
+                android:background="@drawable/cropinscroll"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Yoga for disorders "
+                        android:textSize="40dp"
+                        android:fontFamily="serif-monospace"
+                        android:textColor="@color/white"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="yoga according to disorders"
+                    android:textSize="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:textColor="@color/white"/>
+                <Button
+                    android:id="@+id/opt2button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonbackground"
+                    android:text="Know more"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"/>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15.0dp"
+                android:background="@drawable/cropinscroll"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="More features coming soon"
+                        android:textSize="40dp"
+                        android:fontFamily="serif-monospace"
+                        android:textColor="@color/white"/>
+
+                </LinearLayout>
+
+                <TextView
+
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Thank you"
+                    android:textSize="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:textColor="@color/white"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutopt4"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:layout_margin="10dp"
+                android:layout_marginTop="15.0dp"
+                android:background="@drawable/cropinscroll"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="150dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    >
+
+                    <TextView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Register for Course"
+                        android:textSize="40dp"
+                        android:fontFamily="serif-monospace"
+                        android:textColor="@color/white"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:text="Check out courses available for you"
+                    android:textSize="20dp"
+                    android:fontFamily="serif-monospace"
+                    android:textColor="@color/white"/>
+                <Button
+                    android:id="@+id/courselisting"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/buttonbackground"
+                    android:text="Show courses"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"/>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+
+</LinearLayout>
